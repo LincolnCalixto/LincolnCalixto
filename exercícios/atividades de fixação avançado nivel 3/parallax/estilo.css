@@ -1,0 +1,61 @@
+/*efeito padrão*/
+body, html{
+    margin: 0;
+    padding: 0;
+    font: 16px "Lato", sans-serif;
+    color: #777;
+    height: 100%;
+}
+h3{
+    text-transform: uppercase;
+    color: #111;
+    text-align: center;
+}
+p{
+    margin-bottom: 20px;
+    line-height: 50px;
+}
+.conteudo{
+    color: #777;
+    background-color: white;
+    text-align: justify;
+    padding: 50px 80px;
+}
+/*efeito parallax*/
+.caixa1, .caixa2, .caixa3, .caixa4{
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+    opacity: 0.9;
+    position: relative;
+}
+.caixa1{
+    background-image: url(imagens/imagem1.jpg);
+}
+.caixa2{
+    background-image: url(imagens/imagem2.jpg);
+}
+.caixa3{
+    background-image: url(imagens/imagem3.jpg);
+}
+.caixa4{
+    background-image: url(imagens/imagem4.jpg);
+}
+.conteudo_titulo{
+    position: absolute;/*precisa e position relative nas classes caixa*/
+    left: 0%;/*k*/
+    top: 45%;
+    width: 100%;/*k*/
+    text-align: center; /*k*/
+}
+/*ajustar o texto sobre as imagens cód=k*/
+.conteudo_titulo span.titulo{
+    background-color: #111;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px;/*espaçamento entre as letras*/
+    color: white;
+    text-transform: uppercase;
+}

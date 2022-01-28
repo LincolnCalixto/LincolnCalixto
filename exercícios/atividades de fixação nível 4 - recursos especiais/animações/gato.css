@@ -1,0 +1,65 @@
+@keyframes gato1 {
+    from{background-position: 0px;}
+    to{background-position: -2805px;}  
+}
+#container{
+    height: 255px;
+    width: 255px;
+    margin: 0 auto;
+    background: linear-gradient(rgba(0, 162, 255, 0.2), rgba(230, 196, 9, 0.2), rgba(230, 90, 9, 0.2)) ;
+    border-radius: 100%;
+}
+/*
+@-o-keyframes gato1 {
+    from{background-position: 0px;}
+    to{background-position: -2805px;}  
+}
+@-webkit-keyframes gato1 {
+    from{background-position: 0px;}
+    to{background-position: -2805px;}  
+}
+@-moz-keyframes gato1 {
+    from{background-position: 0px;}
+    to{background-position: -4080px;}  
+}*/
+
+#caixa{
+    background-image: url("gato.jpg")/*só aparece dentro da width*/;
+    width: 255px;
+    height: 173px;
+    opacity: 0.8;
+    animation: gato1 0.7s steps(11) infinite;
+    /*-moz-animation: gato1 0.01s steps(11) infinite;
+    -o-animation: gato1 0.01s steps(11) infinite;
+    -webkit-animation: gato1 0.01s steps(11) infinite;*/
+
+}
+/********************************/
+@keyframes gato2 {
+    from{background-position: 0px;}
+    to{background-position: -2805px;}  
+}
+/*
+@-o-keyframes gato1 {
+    from{background-position: 0px;}
+    to{background-position: -2805px;}  
+}
+@-webkit-keyframes gato1 {
+    from{background-position: 0px;}
+    to{background-position: -2805px;}  
+}
+@-moz-keyframes gato1 {
+    from{background-position: 0px;}
+    to{background-position: -2805px;}  
+}*/
+
+#caixa1{
+    background-image: url("gatosombra.jpg")/*só aparece dentro da width*/;
+    width: 255px;
+    height: 173px;
+    animation: gato2 0.7s steps(11) infinite;
+    /*-moz-animation: gato1 0.01s steps(11) infinite;
+    -o-animation: gato1 0.01s steps(11) infinite;
+    -webkit-animation: gato1 0.01s steps(11) infinite;*/
+    opacity: 0.5;
+}

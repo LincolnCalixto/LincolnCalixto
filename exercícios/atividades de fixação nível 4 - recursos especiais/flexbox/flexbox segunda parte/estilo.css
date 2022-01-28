@@ -1,0 +1,65 @@
+    /*flex-direction: row ;row (coluna)| row-reverse (canto direito) | column | column-reverse
+    flex-direction: row;
+    flex-wrap: nowrap ;/*quebra de layout's: nowrap (não deixa quebrar) | wrap | wrap-reverse faz os blocos internos se adaptarem ao tamanho do container
+    justify-content: center ;/* coloca os blocos em determinadas posições do container: flex-start | flex-end | center | space-between (cola no canto)| space-around
+    align-items: center ;/* stretch (padrão - de acordo com a altura do container)| center | flex-star | flex-end | baseline (alinha pelo conteudo em geral, um padding fica fora do padrão */
+
+#conteudo{
+    background: #dcdcdc;
+    height: 400px;
+    display: flex; /*faz os itens ficar um do lado do outro, mas tb ignora a margin*/}
+
+.item{
+    width: 200px;
+    height: 100px;
+    background: white;
+    margin: 10px;/*display block ignora a margin*/
+    flex-grow: 0 ;/*define a proporção de espaço ocupado por um item*/
+    /*flex-basis: auto; flex basis - indica o tamanho inicial do flex item antes da distribuição do espaço restante*/
+
+}
+
+.ordem1{order: 1;}
+.ordem2{order: 2;}
+.ordem3{order: 3;}
+.ordem4{order: 4;}
+/*******************************************/
+/*aumento de tamanho*/
+#conteudo1{
+    background: #dcdcdc;
+    height: 400px;
+    display: flex; /*faz os itens ficar um do lado do outro, mas tb ignora a margin*/}
+
+
+.flexgrow1{
+    flex-grow: 1000; /* 0 é padrão - faz a div que possue a classe ocupar toda a linha, ou coluna, apertando as outras div's da sequencia*/
+}/* padrão não muda nada*/
+.flexgrow2{
+    flex-grow: 2;
+}
+.flexgrow3{
+    flex-grow: 3;
+}
+.flexgrow4{
+    flex-grow: 1;
+}
+/**********************************/
+/*redução de tamanho*/
+#conteudo2{
+    background: #dcdcdc;
+    height: 400px;
+    display: flex; /*faz os itens ficar um do lado do outro, mas tb ignora a margin*/}
+
+
+.flexshrink1{
+    flex-shrink: 0; /* 0 é padrão - faz a div que possue a classe ocupar toda a linha, ou coluna, apertando as outras div's da sequencia*/
+}/* padrão não muda nada*/
+.flexshrink2{
+    flex-shrink: 20;
+}
+.flexshrink3{
+    flex-shrink: 1;
+}
+.flexshrink4{
+    flex-shrink: 40;
+}

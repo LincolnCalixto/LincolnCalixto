@@ -1,0 +1,18 @@
+*{
+    color: darkgoldenrod;
+}
+h2{
+    color: red;
+}
+h2.verde{
+    color: darkgreen;
+}
+h2#laranja{
+    color: orange;
+}
+#pagina p{
+    color: blue !important; /*evitar o uso*/
+}
+#pagina p{
+    color:chocolate;
+}

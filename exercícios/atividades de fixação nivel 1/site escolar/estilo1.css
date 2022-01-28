@@ -1,0 +1,118 @@
+/* conteudo geral*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: ;
+}
+ul{
+	/*margin: 0;
+	padding: 0;*/
+	list-style: none;
+}
+/**{border: 1px solid red;}*/
+
+/************************************************************************layout*/
+#container{
+	background: #F2F2F2;
+	height: 47px;
+	padding: ;
+	margin: 0 auto;
+	position: fixed;
+}
+#lincoln{
+	margin-top: 20px;/*testar line-height:  25px;*/
+}
+.layout{
+	width: 100%;
+	margin: 0 auto ;
+	height: 47px;
+	background: #F2F2F2;
+	position: fixed;
+	min-width: 810px;
+}
+#layout1{
+	float: left;
+	padding-left: 2%;
+}
+#layout2{
+	float: right;
+}
+.icon{
+	margin-top: 15px;
+	width: 25px;
+	border-radius: 100%;
+}
+#busca{
+	width: 16px;
+	margin: 0;
+}
+#search{
+	width: 200px;
+	height: 20px;
+	margin-top: 12px;
+}
+.layout ul{
+	margin-top: 0;
+	float: left;
+}
+.layout ul li{
+	float: left;
+	margin-right: 1.5em;
+}
+.layout ul a{
+	font-size: 0.9em;
+	display: inline-block;
+	padding: 0;
+	line-height: 24px; /*altura da barra*/
+	text-decoration: none;
+	color: black;
+	text-align: center top;
+}
+/*****************************************************************menu invisivel*/
+.menu_sup1{/* mexer*/
+	float:left;
+}
+.menu_sup1 li{ /*não mexer*/
+	position:relative;
+}
+.menu_sup1 li:hover ul, .menu_sup1 li.over ul{ /*não mexer*/
+	display:block;
+}
+.menu_sup1 a{
+	color:red;
+	display:block;
+}
+.menu_sup1  li ul li a{
+	color:red;
+	display:block;
+}
+.menu_sup1 ul li:hover{
+	background: #FAFAFA;
+	color: #69001d;
+}
+.menu_sup1 li  ul{
+	background: #fff;
+	position:absolute;
+	top:10px;
+	right: 8px;
+	margin: 0 auto;
+	/*background-color:blue;*/
+	display: none;
+}
+.menu_sup1 li ul li{
+	border: 1px solid #F2F2F2;
+	border-right: none;
+	border-left: none;
+	display:block;
+	width:100%;
+}
+/********************************************* conteudo*/
+.container_conteudo{
+	background: #fff;
+	width: 93%;
+	margin: 0 auto;
+	padding-top: 80px;
+}

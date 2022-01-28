@@ -1,0 +1,286 @@
+/* Estrutura do site */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #fff url(imagens/fundo.png);
+}
+.clear{
+	clear: both;
+}
+#container {
+	width: 95%;/*750*/
+	margin: 0 auto;
+	padding: 0;
+	min-width: 750px;
+}
+#topo{
+	height: 200px;
+	background: url(imagens/vb.jpeg) no-repeat right top;
+	
+}
+.logo{
+	width: 437px;
+	height: 200px;
+	background: url(imagens/fundo_esquerd.jpg) no-repeat center;
+	text-indent: -3000px;
+}
+/*barra de navegação*/
+a:link, a:visited{
+	color: #000;
+	padding: 2px;
+}
+a:hover{
+	color: #e50040;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#topo ul{
+	/*margin-top: 30px;*/
+	background: none;
+	float: left;
+}
+#topo ul li{
+	float: left;
+}
+#topo ul a{
+	font-size: 0.9em;
+	display: block;
+	padding: 0.3em 1.5em;
+	line-height: 2.1em; /*altura da barra*/
+	text-decoration: none;
+	color: #fff;
+	background: url(imagens/divisor.png) no-repeat left center;
+}
+#topo ul .primeiro a{
+	background: none;
+}
+#topo ul a:hover{
+	color: #69001d;
+}
+body.home #navegacao a#home,
+body.mods #navegacao a#mods,
+body.atomizadores #navegacao a#atomizadores,
+body.juices #navegacao a#juices,
+body.salts #navegacao a#salts,
+body.acessorios #navegacao a#acessorios
+body.fotos #navegacao a#fotos
+{
+	color: #000;
+	text-decoration: underline;
+}
+/* barra navegação contato*/
+.icon{
+	margin-top: -10px;
+	width: 25px;
+	border-radius: 100%;
+}
+#search{
+	width: 200px;
+	height: 20px;
+	border: none;
+	border-radius: 20%;
+}
+.layout ul{
+	margin-top: 0;
+	float: left;
+}
+.layout ul li{
+	float: left;
+	margin-right: 1.5em;
+}
+.layout ul a{
+	font-size: 0.9em;
+	display: inline-block;
+	padding: 0;
+	line-height: 24px; /*altura da barra*/
+	text-decoration: none;
+	color: black;
+	text-align: center top;
+}
+/*****************************************************************menu invisivel*/
+.menu_sup1{/* mexer*/
+	float:left;
+}
+.menu_sup1 li{ /*não mexer*/
+	position:relative;
+}
+.menu_sup1 li:hover ul, .menu_sup1 li.over ul{ /*não mexer*/
+	display:block;
+}
+.menu_sup1  li ul li{
+	background: #0B6138;
+}
+.menu_sup1 a{
+	color:red;
+	display:block;
+}
+.menu_sup1  li ul li a{
+	color:red;
+	display:block;
+}
+.menu_sup1 ul li:hover{
+	background: #FAFAFA;
+	color: #69001d;
+}
+.menu_sup1 li  ul{
+	background: #fff;
+	position:absolute;
+	top:10px;
+	right: 8px;
+	margin: 0 auto;
+	/*background-color:blue;*/
+	display: none;
+}
+.menu_sup1 li ul li{
+	border: 1px solid #F2F2F2;
+	border-right: none;
+	border-left: none;
+	display:block;
+	width:200px;
+}
+/**************** configura layout em três colunas*/
+#conteudo{
+	background: #f5f5f5;
+	margin-top: 20px;
+}
+#lateral{
+	width: 24%;/*180*/
+	float: left;
+	margin: 0 0 2.66% -100%;/*0 0 20px -750px*/
+
+}
+#primario{
+	width: 36%;/*270*/
+	float: left;
+	margin: 0 0 2.66% 26%;/*0 0 20px 195px 180+15px para trocar a div de posição*/
+}
+#duas_colunas #primario{
+	width: 48%;/*555px*/
+	margin: 1%;
+	padding: 0;
+}
+#uma_colunas #primario{
+	width: 90%;/*750px*/
+	margin: 0 0 2.66% 0;/*0 0 20px 0*/
+	margin-left: 60px;
+}
+#secundario{
+	margin: 0 0 2.66% 2%;/*0 0 20px 15px*/
+	width: 36%;/*270*/
+	float: left;
+}
+/******caixa*/
+.caixa{
+	background: #f3f3f3 url(imagens/fundo-caixa.png);
+	margin: 10px 0;/*0px superior e inferior auto lateriais*/
+	padding: 5px;
+}
+h2 {
+	font-size: 1em;
+	background: orange url(imagens/fundo.png);
+	color: #fff;
+	padding: 5px;
+	border-radius: 2px;
+}
+.caixa_conteudo{
+	background: #fff;
+	padding: 5px;
+	margin-top: 5px;
+}
+/******Formartar menu lateral*/
+#lateral ul a{
+	font-size: 0.9em;
+	display: block;
+	padding: 3px;
+	line-height: 30px; /*altura da barra*/
+	text-decoration: none;
+	color: #000;
+	border-bottom: 1px solid #f3f3f3;
+}
+#lateral ul a:hover {
+	padding-left: 20px;
+	color: #a1a1a1;
+	background: #f9f9f9 url(imagens/marcador.png) no-repeat left center;
+}
+label{
+	display: block;
+	cursor: pointer;
+}
+input{
+	padding: 5px;
+	width: 125px;
+	font-size: 0.9em;
+	background-color: #fff;
+}
+input.submit{
+	width: 80px;
+	color: #fff;
+	background-color: orangered;
+	border: 2px solid #870529;
+	border-radius: 5px;
+}
+/*****formatando a imagem*/
+img{
+	border: 3px solid #dfdfdf;
+}
+img.imagem_principal{
+	width: 98%;
+	border: 3px solid #dfdfdf;
+}
+/* formatando cabeçalho*/
+h3{
+	text-transform: uppercase;/*letras maiusculas*/
+	display: inline;
+	font-size: 0.8em;
+	padding: 3px;
+}
+.destaque h3{ /*h3 que esta no destaque caso precise mais cabeçalho nesta coluna*/
+	background: #000;
+	color: #fff;
+}
+.secundario h3{ /*h3 que esta no destaque caso precise mais cabeçalho nesta coluna*/
+	background: #000;
+	color: #fff;
+}
+/*formatando lista noticias*/
+#lista_noticias li{
+	padding-left: 2px;
+	border-bottom: 1px solid #ccc;
+	height: 62px;
+}
+#lista_noticias li a img{
+	float: left;
+	margin: 5px;
+}
+#lista_noticias li a{
+	text-decoration: none;
+}
+#lista_noticias li a h3{
+	font-size: 0.8em;
+	padding: 0 ;/*remove os padding anteriores*/
+	color: #3e7ab9;
+}
+#lista_noticias li a p{
+	font-size: 0.7em;
+	color: #000;
+}
+#lista_noticias li:hover{
+	background: #eee;
+	cursor: pointer;
+}
+/******rodapé*/
+#container_rodape{
+	background: #000;
+	padding: 20px;
+}
+#rodape{
+	width: 750px;
+	margin: 0 auto; /*a div foi para o meio*/
+	color: #fff;
+}

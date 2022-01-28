@@ -1,0 +1,42 @@
+/* instalando fontes*/
+@font-face{
+    font-family: "bodo";
+    src:url("fontes/BodoAmat.woff");
+}
+@font-face{
+    font-family: "dinamica";
+    src:url("fontes/Dinamica.woff");
+}
+@font-face{
+    font-family: "dindalove";
+    src:url("fontes/Dindalove.woff");
+}
+@font-face{
+    font-family: "sastica";
+    src:url("fontes/SasticaNora-Regular.woff");
+}
+@font-face{
+    font-family: "starotto";
+    src:url("fontes/Starotto.woff");
+}
+/*fim*/
+#bodo{
+    font-size: 3em;
+    font-family: "bodo";
+}
+#dinamica{
+    font-size: 3em;
+    font-family: "dinamica";
+}
+#dindalove{
+    font-size: 3em;
+    font-family: "dindalove";
+}
+#sastica{
+    font-size: 3em;
+    font-family: "sastica";
+}
+#starotto{
+    font-size: 3em;
+    font-family: "starotto";
+}

@@ -1,0 +1,31 @@
+#caixa0{
+    width: 300px;
+    height: 300px;
+    background-color: #b9c941;
+    border-radius: 10px 100px;
+    box-sizing: border-box;/*fazer perder o acrescimo do padding no width, mas descofigura o texto*/
+}
+#caixa1{
+    width: 300px;
+    height: 300px;
+    background-color: #b9c941;
+    padding: 50px;/*nesse caso o padding passa a fazer parte do tamanho width + padding*/
+    /*-webkit-border-radius: 10px 100px;/*-webkit- versoes anteriores ao chrome*/
+   /* -moz-border-radius: 10px 100px; firefox*/
+    border-radius: 10px 100px;
+}
+.arredondamento{
+    border-radius: 150px;
+}
+#caixa2{/*comparação entre padding com caixa1 como descofigura o texto ao inserir box-sizing pra não deixar aumentar o tamnho da caixa por causa do passing*/
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+    background-color: #b9c941;
+   /*-webkit-border-radius: 10px 100px;/*-webkit- versoes anteriores ao chrome*/
+   /* -moz-border-radius: 10px 100px;*/
+    border-radius: 10px 100px;
+    box-sizing: border-box;/*fazer perder o acrescimo do padding no width, mas descofigura o texto*/
+    /*-webkit-box-sizing: border-box;
+    -moz-border-box-sizing: border-box;*/
+}

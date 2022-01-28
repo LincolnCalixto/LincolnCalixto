@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet type"text/css" href="estilo.css">
+    <title>flexbox parte 1</title>
+</head>
+<body>
+    Pra utilizar flexbox em todos os brownser é preciso baixar bibliotecas.js pra corrigir erros, principlamente no i.e.,<br>
+   <a href="https://github.com/jonathantneal/flexibility">https://github.com/jonathantneal/flexibility</a>bibliotecas<br>
+   <a href="https://autoprefixer.github.io/">https://autoprefixer.github.io/</a> ***copia o comando e cola la pra gerar -o-,-webkit-, etc do comando<br>
+   <a href="https://caniuse.com/?search=flexbox">https://caniuse.com/?search=flexbox</a>mostra onde é aceito
+
+    <!--h1{Flexbox}
+    div#conteudo
+        div.item*4{item$}|c-->
+    <h1>Flexbox ordem</h1>
+    <div id="conteudo"><!--container-->
+        <div class="item ordem4">01</div><!--flex itens-->
+        <div class="item ordem2">02</div>
+        <div class="item ordem3">03</div>
+        <div class="item ordem1">04</div>
+    </div>
+    <h1>Flexbox aumento de tamanho</h1>
+    <div id="conteudo1"><!--container-->
+        <div class="item flexgrow1">01</div><!--flex itens-->
+        <div class="item flexgrow2">02</div>
+        <div class="item flexgrow3">03</div>
+        <div class="item flexgrow4">04</div>
+    </div>
+    <h1>Flexbox diminuição de tamanho</h1>
+    <div id="conteudo2"><!--container-->
+        <div class="item flexshrink1">01</div><!--flex itens-->
+        <div class="item flexshrink2">02</div>
+        <div class="item flexshrink3">03</div>
+        <div class="item flexshrink4">04</div>
+    </div>
+</body>
+</html>
