@@ -1,0 +1,6 @@
+git init
+git remote add origin https://github.com/LincolnCalixto/LincolnCalixto.git
+git pull origin main
+git add .
+git commit -m ""
+git push origin atividades
