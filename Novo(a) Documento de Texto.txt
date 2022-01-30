@@ -1,0 +1,7 @@
+git init
+git remote add origin https://github.com/LincolnCalixto/LincolnCalixto/tree/main/projetos.git
+git pull origin main
+git checkout -b main
+git add .
+git commit -m ""
+git push origin main
