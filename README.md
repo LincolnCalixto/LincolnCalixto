@@ -1,12 +1,9 @@
 <div>
 	<h1>Sobre mim:</h1>
 </div>
-<div align="center">
-	<a href="https://github.com/LincolnCalixto/LincolnCalixto">
-	<img height="150em" src="https://github-readme-stats.vercel.app/api?username=lincolncalixto&show_icons=true&theme=merko&include_all_commits=true&count_private=false"/>
-	<img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lincolncalixto&layout=compact&langs_count=7&theme=merko"/></a>
-</div>
 <div>
+	<a href="https://github.com/LincolnCalixto/LincolnCalixto">
+	<img align="right" height="100em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lincolncalixto&layout=compact&langs_count=7&theme=merko"/></a>
 	<h1>CONTATO:
 	<a href="https://web.whatsapp.com/send?phone=5546999257699" target="_blank"><img width="40"src="https://www.maquinaferravima.com.br/images/whatsapp.gif" target="_blank"></a>
 	<a href="https://www.linkedin.com/in/lincoln-calixto1305/" target="_blank"><img 
