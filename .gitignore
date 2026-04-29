@@ -1,0 +1,23 @@
+# Node.js
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Compiled files
+*.o
+*.exe
+*.out
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
