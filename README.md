@@ -1,58 +1,65 @@
-# Lincoln Calixto - Portfolio & Profile
+# 👋 Olá, eu sou Lincoln Calixto
 
-Bem-vindo ao meu perfil no GitHub! 👋
-
-## 🙋 Sobre mim
-
-Sou **Lincoln Calixto**, desenvolvedor web apaixonado por criar aplicações de qualidade. Tenho formação em:
-
-- **Licenciatura em Matemática**
-- **Licenciatura em Física**  
-- **Cursando Licenciatura em Informática**
-
-Estou em constante aprendizado através de cursos como o **Desenvolvimento Web Completo 2022** da Udemy.
-
-## 🎯 Objetivo Profissional
-
-Sou um profissional eficaz e experiente na colaboração para o crescimento da empresa. Busco oportunidades de crescimento profissional na área de **desenvolvimento web**.
-
-## 🛠️ Habilidades Técnicas
-
-- **Frontend**: HTML5, CSS3, JavaScript
-- **Backend**: Node.js, Python  
-- **Versionamento**: Git & GitHub
-
-## 📂 Projetos
-
-| Projeto | Tecnologias |
-|---------|------------|
-| Notícias Cidades | HTML, CSS, JavaScript |
-| Chalé Hotel | HTML, CSS |
-| Museu Nacional | HTML, CSS |
-| TecBlog | HTML, CSS, JavaScript |
-| UNES | HTML, CSS |
-| Vapor Barato | HTML, CSS |
-
-## 📊 GitHub Stats
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=lincolncalixto&show_icons=true&theme=github_dark&include_all_commits=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lincolncalixto&layout=compact&langs_count=7&theme=github_dark"/>
-</div>
-
-## 📞 Contato
-
-- **Email**: [lc88@outlook.com](mailto:lc88@outlook.com)
-- **LinkedIn**: [lincoln-calixto1305](https://www.linkedin.com/in/lincoln-calixto1305/)
-- **WhatsApp**: [+55 46 99925-7699](https://web.whatsapp.com/send?phone=5546999257699)
-- **Instagram**: [@lincoln_calixto88](https://instagram.com/lincoln_calixto88)
-
-## 📋 Documentação
-
-- [CONTRIBUTING.md](CONTRIBUTING.md) - Como contribuir
-- [LICENSE](LICENSE) - Licença MIT
-- [CHANGELOG.md](CHANGELOG.md) - Histórico de versões
+🎓 Estudante de Análise e Desenvolvimento de Sistemas (UTFPR)  
+📚 Formação em Matemática e Física  
+👨‍🏫 Professor desde 2017  
+💻 Em transição para desenvolvimento de software  
 
 ---
 
-**Obrigado por visitar! ⭐**
+## 🙋 Sobre mim
+
+Minha trajetória na educação me proporcionou uma base sólida em raciocínio lógico, organização e resolução de problemas. Atualmente, estou direcionando essa experiência para a área de desenvolvimento de software, com foco em construção de sistemas e aprendizado contínuo.
+
+Organizei recentemente meu portfólio no GitHub com exercícios e projetos em linguagem C, aplicando conceitos fundamentais como estruturas de decisão, repetição, validação de dados e resolução de problemas práticos.
+
+---
+
+## 🚀 Tecnologias em aprendizagem
+
+- Linguagem C (lógica de programação)
+- Java (backend)
+- Angular (frontend)
+- SQL
+- Git e GitHub
+
+---
+
+## 📂 Projetos em destaque
+
+🔗 [Lógica de Programação em C](https://github.com/LincolnCalixto/logica-programacao-c)
+
+Repositório com exercícios e projetos envolvendo:
+
+- Estruturas de decisão e repetição  
+- Validação de entrada de dados  
+- Problemas práticos (caixa, investimento, análise de dados)  
+- Organização de código e boas práticas iniciais  
+
+---
+
+## 🧠 Habilidades
+
+- Raciocínio lógico  
+- Resolução de problemas  
+- Organização e clareza de código  
+- Aprendizado contínuo  
+- Trabalho em equipe  
+
+---
+
+## 🎯 Objetivo
+
+Atuar como desenvolvedor, evoluindo tecnicamente e contribuindo em projetos que gerem impacto real, especialmente em ambientes colaborativos e orientados a aprendizado.
+
+---
+
+## 📞 Contato
+
+- 📧 Email: [lc88@outlook.com](mailto:lc88@outlook.com)  
+- 📱 Telefone/WhatsApp: **(49) 99907-9201**  
+- 💼 LinkedIn: https://www.linkedin.com/in/lincoln-calixto1305/  
+
+---
+
+⭐ Obrigado por visitar meu perfil!
